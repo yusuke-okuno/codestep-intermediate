@@ -63,4 +63,53 @@ li {
 #navi a {
   color: #fff;
 }
+
+.pickup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 150px;
+  margin-bottom: 60px;
+}
+
+.pickup article {
+  width: 32%;
+}
+
+.pickup .article-title {
+  font-size: 1rem;
+  margin: 10px 0 15px 0;
+}
+
+.readmore {
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.readmore a {
+  padding-bottom: 1px;
+  color: #333;
+  position: relative;
+}
+
+.readmore a::after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background: #333;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.readmore a:hover::after {
+  opacity: 0;
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+}
 /*# sourceMappingURL=style.css.map */
