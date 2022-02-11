@@ -263,4 +263,47 @@ main article .text {
   text-align: center;
   padding: 10px 0;
 }
+
+@media screen and (max-width: 767px) {
+  .header .site-title {
+    padding: 20px 16px;
+  }
+  #navi {
+    overflow-x: scroll;
+  }
+  .pickup {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 140px;
+  }
+  .pickup article {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #container main {
+    width: 100%;
+  }
+  #container #sidebar {
+    width: 100%;
+    padding: 0;
+  }
+  .footer .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer .content .item {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
