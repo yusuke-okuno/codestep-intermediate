@@ -171,3 +171,60 @@ main {
     }
   }
 }
+
+.footer {
+  font-size: 0.875rem;
+  background-color: #f7f7f7;
+  .content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    // ここのpaddingの値を50pxから100pxに上げたが、twitter部分を埋め込んだら50pxで正解のレイアウトになった、、、
+    .item {
+      width: 30%;
+      .footer-title {
+        font-size: 1.125rem;
+        font-weight: bold;
+        margin-bottom: 30px;
+      }
+      ul.about-list {
+        margin: 20px 0;
+        li {
+          margin-bottom: 5px;
+        }
+        // .arrow {
+        //   position: relative;
+        //   display: inline-block;
+        //   padding-left: 12px;
+        //   color: #333;
+        // }
+        // .arrow::before {
+        //   content: '';
+        //   width: 0;
+        //   height: 0;
+        //   border-style: solid;
+        //   border-width: 6px 0 6px 8px;
+        //   border-color: transparent transparent transparent #333;
+        //   position: absolute;
+        //   top: 50%;
+        //   left: 0;
+        //   margin-top: -6px;
+        // }
+      }
+      .menu-list {
+        border-bottom: solid  1px #777;
+        li {
+          border-top: solid  1px #777;
+          padding: 15px;
+          text-align: left;
+        }
+      }
+    }
+  }
+  .copyright {
+    font-size: 0.750rem;
+    text-align: center;
+    padding: 10px 0;
+  }
+}

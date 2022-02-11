@@ -213,4 +213,54 @@ main article .text {
   padding: 20px;
   text-align: left;
 }
+
+.footer {
+  font-size: 0.875rem;
+  background-color: #f7f7f7;
+}
+
+.footer .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer .content .item {
+  width: 30%;
+}
+
+.footer .content .item .footer-title {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.footer .content .item ul.about-list {
+  margin: 20px 0;
+}
+
+.footer .content .item ul.about-list li {
+  margin-bottom: 5px;
+}
+
+.footer .content .item .menu-list {
+  border-bottom: solid  1px #777;
+}
+
+.footer .content .item .menu-list li {
+  border-top: solid  1px #777;
+  padding: 15px;
+  text-align: left;
+}
+
+.footer .copyright {
+  font-size: 0.750rem;
+  text-align: center;
+  padding: 10px 0;
+}
 /*# sourceMappingURL=style.css.map */
